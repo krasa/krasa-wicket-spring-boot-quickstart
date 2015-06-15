@@ -1,6 +1,7 @@
 package krasa.wicket;
 
 import krasa.wicket.pages.TestPage;
+
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
 import org.springframework.context.ApplicationContext;

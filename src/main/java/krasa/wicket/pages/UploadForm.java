@@ -1,6 +1,7 @@
 package krasa.wicket.pages;
 
 import java.util.List;
+
 import org.apache.wicket.markup.html.form.Form;
 import org.apache.wicket.markup.html.form.upload.*;
 import org.apache.wicket.markup.html.panel.FeedbackPanel;
@@ -21,8 +22,8 @@ public class UploadForm extends Form<Void> {
 		setMultiPart(true);
 		add(fileUploadField = new FileUploadField("fileInput"));
 		setMaxSize(Bytes.kilobytes(25000));
-        add(new FeedbackPanel("feedback"));
-    }
+		add(new FeedbackPanel("feedback"));
+	}
 
 	@Override
 	protected void onSubmit() {
