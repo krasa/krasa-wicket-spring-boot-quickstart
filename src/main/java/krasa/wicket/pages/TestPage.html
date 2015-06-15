@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+    <title>Wicket Examples - atmosphere</title>
+</head>
+<body>
+<form wicket:id="progressUpload">
+    <fieldset>
+        <legend>Upload</legend>
+        <p>
+            <label for="upload">File</label>
+            <input id="upload" wicket:id="fileInput" type="file"/>
+        </p>
+        <input type="submit" value="Upload!"/>
+        <div wicket:id="feedback"></div>
+    </fieldset>
+</form>
+</body>
+</html>
